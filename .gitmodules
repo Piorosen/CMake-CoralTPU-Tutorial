@@ -4,3 +4,6 @@
 [submodule "3rdparty/flatbuffers"]
 	path = 3rdparty/flatbuffers
 	url = https://github.com/google/flatbuffers
+[submodule "3rdparty/abseil-cpp"]
+	path = 3rdparty/abseil-cpp
+	url = https://github.com/abseil/abseil-cpp
