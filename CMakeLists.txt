@@ -31,11 +31,11 @@ set(CMAKE_INSTALL_RPATH "bin")
 
 if (TEST_BUILD_LSTPU)
 add_executable(${PROJ_NAME}
-        main.cpp
+	lstpu.cpp
 )
 else()
 add_executable(${PROJ_NAME}
-        lstpu.cpp
+        main.cpp
 )
 endif()
 
