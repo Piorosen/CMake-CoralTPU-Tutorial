@@ -1,5 +1,12 @@
 cmake_minimum_required(VERSION 3.4.1)
-SET(PROJ_NAME chacha)
+
+if (TEST_BUILD_LSTPU)
+SET(PROJ_NAME lstpu)
+else()
+SET(PROJ_NAME model)
+endif()
+
+
 project(${PROJ_NAME})
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}")
